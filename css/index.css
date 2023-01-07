@@ -1,0 +1,28 @@
+@import './header.css';
+@import './hero.css';
+@import './main.css';
+@import './footer.css';
+@import './button.css';
+
+:root {
+  --primary: #1E0E62;
+  --green: #25DAC5;
+  --secondary: #482BE7;
+  --black: #909090;
+  --white: #ededed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--white);
+  font-family: Roboto;
+}
+
+.wrapper {
+  min-width: 320px;
+  max-width: 425px;
+}

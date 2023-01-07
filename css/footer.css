@@ -1,0 +1,29 @@
+.footer-content {
+  padding-inline: 1.5rem;
+  padding-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  align-items: center;
+}
+
+.footer-info h2 {
+  color: var(--primary);
+}
+
+.footer-info p {
+  color: var(--secondary);
+}
+
+.footer-icon {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  color: var(--black);
+}

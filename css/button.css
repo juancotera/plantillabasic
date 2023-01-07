@@ -1,0 +1,22 @@
+.button-light {
+  text-decoration: none;
+  border: 1px solid red;
+  background: var(--white);
+  color: var(--primary);
+  font-weight: 500;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  padding-block: .5rem;
+  padding-inline: 2rem;
+}
+
+.button {
+  display: block;
+  text-decoration: none;
+  background: var(--green);
+  color: var(--white);
+  padding-block: .5rem;
+  padding-inline: 2rem;
+  border-radius: 2rem;
+  font-weight: 500;
+}

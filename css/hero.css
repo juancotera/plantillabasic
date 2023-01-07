@@ -1,0 +1,24 @@
+.hero-content {
+  padding-block: 2.5rem;
+  padding-inline: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-bottom: 1px solid var(--black);
+}
+
+.hero-content h2 {
+  color: var(--primary);
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero-content p {
+  color: var(--black);
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.hero-image img{
+  border-radius: .5rem;
+}
